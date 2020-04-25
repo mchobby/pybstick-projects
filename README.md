@@ -6,4 +6,4 @@ Ce GitHub regroupe un ensemble de projets de démonstration MicroPython articul�
 
 Voir les sous-répertoire pour les détails des différents projects.
 
-* __copy-paste__ : réaliser des touches copier/coller pour compléter un clavier.
+* __[copy-paste](tree/master/copy-paste)__ : réaliser des touches copier/coller pour compléter un clavier.
