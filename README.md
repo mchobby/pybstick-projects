@@ -4,6 +4,9 @@ Ce GitHub regroupe un ensemble de projets de démonstration MicroPython articul�
 
 ![PYBStick](docs/_static/PYBStick-Lite-26.jpg)
 
-Voir les sous-répertoire pour les détails des différents projects.
+La __documentation MicroPython de la PYBStick__ est disponible dans le dépôt [pyboard-driver/PYBStick](https://github.com/mchobby/pyboard-driver/tree/master/PYBStick)
+
+Voici la liste des projets disponibles, voir les détails des différents projects dans leur sous-répertories respectifs.
 
 * __[copy-paste](../../tree/master/copy-paste)__ : réaliser des touches copier/coller pour compléter un clavier.
+* __[keybow](../../tree/master/keybow)__ : une version avancée du projet [copy-paste](../../tree/master/copy-paste) exploitant un KeyBow de Pimoroni.
