@@ -36,3 +36,7 @@ Une fois le script démarré, la LED rouge s'allume sur la PYBStick.
 Si la LED bleue s'allume, cela signifie qu'il y a eu une erreur durant l'exécution du script.
 
 __!!! IMPORTANT !!!__ aucune session terminal/repl doit être ouverte sur la carte MicroPython au moment du redémarrage. Cela perturbe l'activation du mode HID et se traduit par un clignotement en alternance de la LED rouge et LED bleue (erreur système MicroPython).
+
+# Où acheter
+* [PYBStick 26 lite  @ MCHobby](https://shop.mchobby.be/fr/micropython/1830-pybstick-lite-26-micropython-et-arduino-3232100018303-garatronic.html)
+* [Gamme MicroPython chez MCHobby](https://shop.mchobby.be/fr/56-micropython)
