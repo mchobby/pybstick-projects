@@ -44,3 +44,4 @@ Il est également possible de tester le script `madenn.py` depuis une session RE
 * [Anneau NeoPixel - 24 LEDs RGB](https://shop.mchobby.be/fr/neopixels-et-dotstar/405-anneau-neopixel-24-leds-rgb--3232100004054-adafruit.html)
 * [Capteur distance ultrason - HC-SR04](https://shop.mchobby.be/fr/proximite-distance/561-capteur-distance-ultrason-hc-sr04-3232100005617.html)
 * [Piezo Buzzer](https://shop.mchobby.be/fr/autres-capteurs/57-piezo-buzzer-3232100000575.html)
+* [74AHCT125](https://shop.mchobby.be/fr/ci/1041-74ahct125-4x-level-shifter-3v-a-5v-3232100010413.html?search_query=74ahct125&results=1) convertisseur de niveau logique
