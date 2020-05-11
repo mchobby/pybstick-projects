@@ -1,4 +1,4 @@
-""" Keyboaw mini-keyboard sending custom key code to your computer.
+""" Keybow mini-keyboard sending custom key code to your computer.
     Use an AZERTY keymap for the Keyboard.
 
 	Do not forgot to change the boot.py file to activate USB HID support with
@@ -82,6 +82,11 @@ configs = {
         'keys' : [ (btn_left   , 'c', [CTRL_RIGHT,SHIFT_RIGHT] ), # Associate button with key and modifiers
                    (btn_middle, 'v', [CTRL_RIGHT,SHIFT_RIGHT] ),
                    (btn_right, 'v', [CTRL] )    ]
+       },
+   2: { 'color':(0,0,64), # blue color for KeyBow buttons
+        'keys' : [ (btn_left  , [ ('u',[SHIFT,CTRL],200), ('2',[None],200), ('1',[None],200),('2',[],200),('6',[],200), '\r' ] ), # Unicode sequence for Omega (Linux)
+                   (btn_middle, '?', None ),
+                   (btn_right , '?', None )    ]
        }
 }
 
@@ -113,7 +118,12 @@ try:
                key_config = get_key_config( mode, btn )
                if key_config:
                    leds.fill( (0,0,0) )
-                   sendchr( key_config[1], hid, kmap, modifiers=key_config[2] )
+                   if type(key_config[1]) is str: # a single char + modifier
+                       sendchr( key_config[1], hid, kmap, modifiers=key_config[2] )
+                   elif type(key_config[1]) is list: # a sequence
+                       sendseq( key_config[1], hid, kmap )
+                   else:
+                       raise ValueError( 'Invalid type %s for key_config data' % type(key_config) )
                    sleep_ms( 50 )
                    leds.fill( configs[mode]['color'])
 
