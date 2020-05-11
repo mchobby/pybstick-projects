@@ -12,3 +12,4 @@ Voici la liste des projets disponibles, voir les détails des différents projec
 * __[keybow](../../tree/master/keybow)__ : une version avancée du projet [copy-paste](../../tree/master/copy-paste) exploitant un KeyBow de Pimoroni.
 * __[oled-stat](../../tree/master/oled-stat)__ : Affichage taille du système de fichier et RAM disponible sur écran OLED.
 * __[covid-madenn-timer](../../tree/master/covid-madenn-timer)__ : Minuteur automatique pour le lavage des mains (inspiré de Madenn Nunten)
+* __[zumo](../../tree/master/zumo)__ : PYBStick sur chenilles avec un capteur de distance HC-SR04
