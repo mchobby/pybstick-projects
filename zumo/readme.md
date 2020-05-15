@@ -4,15 +4,17 @@ __PROJET EN COURS DE FINALISATION__
 
 En utilisant un [châssis Zumo de Pololu](https://shop.mchobby.be/fr/prototypage-robotique-roue/447-zumo-kit-chassis-sans-moteur-3232100004474-pololu.html) avec des [moteurs continus à contrôleur servo](https://shop.mchobby.be/fr/prototypage-robotique-roue/447-zumo-kit-chassis-sans-moteur-3232100004474-pololu.html) et une [PYBStick](https://github.com/mchobby/pyboard-driver/tree/master/PYBStick) il est possible de réaliser un chouette petit robot avec très peu de connexions.
 
-xxxx IMAGE fina
+![Châssis Zumo et PYBStoick](docs/_static/zumo-chassis-pybstick.jpg)
 
-Ce projet utilisera également un [capteur ultrasonic](https://shop.mchobby.be/fr/proximite-distance/561-capteur-distance-ultrason-hc-sr04-3232100005617.html) pour détecter la présence d'objet à l'avant du robot. Celui-ci permet de détecter des objets sur une distance de 2cm à 4m en utilisant le même principe que la chauffe-souris.
+Ce projet utilisera également un [capteur ultrasonic](https://shop.mchobby.be/fr/proximite-distance/561-capteur-distance-ultrason-hc-sr04-3232100005617.html) pour détecter la présence d'objet à l'avant du robot.
+
+Le capteur ultrasonic permet de détecter des objets sur une distance de 2cm à 4m en utilisant le même principe que la chauffe-souris.
 
 # Préparation
 
 Les [moteurs continus à contrôleur servo](https://shop.mchobby.be/fr/prototypage-robotique-roue/447-zumo-kit-chassis-sans-moteur-3232100004474-pololu.html) proposés dans ce projet on la bonne taille pour être utilisé avec le châssis Zumo.
 
-Par contre, le petit contrôleur à l'arrière du moteur, bien que très petit, reste trop gros et il faut couper un petit bout de la plaque de fixation avec un scie ou une Dremmel.
+Par contre, le petit contrôleur à l'arrière du moteur, bien que très petit, reste trop gros et il faut couper un petit bout de la plaque de fixation avec un scie ou une Dremel.
 
 ![Adapter la plaque de fixation du châssis Zumo](docs/_static/zumo-chassis-cutout.jpg)
 
@@ -43,15 +45,33 @@ Voici quelques explications sur le montage:
 Pour fonctionner, ce projet requière l'installation des bibliothèques suivantes sur la carte MicroPython.
 
 * `ultrasonic.py` : Utilisation du capteur HC-SR04 avec MicroPython [disponible ici sur le GitHub de MCHobby](https://github.com/mchobby/pyboard-a-roulette/tree/master/libraries/ultrasonic) avec un [tutoriel dédicacé sur le Wiki de MCHobby](https://wiki.mchobby.be/index.php?title=MicroPython-HC-SR04).
+* `servozumo.py` : disponible dans le sous-répertoire `lib`, cette bibliothèque contient la classe `ServoZumo` qui facilite le pilotage des moteurs.
 
 # Installer
-Pour faire fonctionner cet exemple, il est nécessaire de copier les fichiers suivants sur la carte:
+Pour faire fonctionner cet exemple, il est nécessaire de copier les fichiers suivants sur la carte (en plus des bibliothèques nécessaires):
 
-* `xxxx.py` : contient le script principal pour xxxxx
+* `explorer.py` : contient le script principal qui déplace le robot, détecte les objets et change de direction.
+
+Le script `explorer.py` peut être renommé `main.py` pour démarrer automatiquement à la mise sous tension (ou Reset) de la carte.
+
+Après avoir débranché la PYBStick de votre ordinateur, le programme peut être démarré en réalisant un cycle d'alimentation sur la Pyboard (en retirant et replaçant une pile).
+
+Note: Il est également possible de faire un `import explorer` depuis une session REPL. Cela permet de  vérifier que toutes les dépendances nécessaires sont bien installées sur la carte.
 
 # Mise en route
 
-xxxx
+Après avoir débranché la PYBStick de votre ordinateur, le programme peut être démarré en réalisant un cycle d'alimentation sur la Pyboard (en retirant et replaçant une pile).
+
+Une fois en route, le script:
+1. Attend que l'on presse le bouton utilisateur A (celui côté masse)
+2. Effectue un décompte de 10 secondes (avec clignotement de la LED rouge) avant de démarrer le coeur du script.
+3. Le script est arrêté (et les moteurs aussi) en pressant à nouveau le bouton utilisateur.
+
+Durant le fonctionnement du script, le robot avant en marche avant jusqu'à la détection d'un obstacle à moins de 20cm.
+
+Dès l'obstacle détecté, le robot tourne à droite ou à gauche (au hasard) et pendant un temps choisi au hasard entre 400 et 1500ms (0.4 à 1.5s). Opération répétée aussi longtemps qu'un obstacle est détecté.
+
+En l'absence d'obstacle, le robot se remet en marche.
 
 # Liste d'achat
 * 1x [châssis Zumo de Pololu](https://shop.mchobby.be/fr/prototypage-robotique-roue/447-zumo-kit-chassis-sans-moteur-3232100004474-pololu.html)
