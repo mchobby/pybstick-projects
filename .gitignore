@@ -3,6 +3,7 @@ docs/push.sh
 python-organ-logo.png
 horloge-a-mots-decoupe-laser.zip
 pushgit.sh
+makezip.sh
 *.ods
 
 
