@@ -10,6 +10,8 @@ Ce projet utilisera également un [capteur ultrasonic](https://shop.mchobby.be/f
 
 Le capteur ultrasonic permet de détecter des objets sur une distance de 2cm à 4m en utilisant le même principe que la chauffe-souris.
 
+Vous pouvez voir ce projet en fonctionnement sur [__cette vidéo YouTube__](https://youtu.be/UrhTwr0xmoI).
+
 # Préparation
 
 Les [moteurs continus à contrôleur servo](https://shop.mchobby.be/fr/prototypage-robotique-roue/447-zumo-kit-chassis-sans-moteur-3232100004474-pololu.html) proposés dans ce projet on la bonne taille pour être utilisé avec le châssis Zumo.

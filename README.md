@@ -14,3 +14,6 @@ Voici la liste des projets disponibles, voir les détails des différents projec
 * __[covid-madenn-timer](../../tree/master/covid-madenn-timer)__ : Minuteur automatique pour le lavage des mains (inspiré de Madenn Nunten)
 * __[tooth-brushing-timer](../../tree/master/tooth-brushing-timer)__ : Minuteur de brossage de dents (inspiré de Madenn Nunten)
 * __[zumo](../../tree/master/zumo)__ : PYBStick sur chenilles avec un capteur de distance HC-SR04
+
+# Où acheter
+Les [cartes PYBStick](https://shop.mchobby.be/fr/recherche?controller=search&orderby=position&orderway=desc&search_query=PYBStick&submit_search=) sont disponibles chez MCHobby. Celles-cis sont programmables en MicroPython et/ou Arduino IDE.
