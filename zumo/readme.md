@@ -1,6 +1,10 @@
 # Créer un Robot avec Zumo Châssis et moteur DFRobot
 
-__PROJET EN COURS DE FINALISATION__
+__Préambule:__
+
+Selon une __[idée originale de notre amis Jean-Christophe Quetin de ArduiBlog](https://arduiblog.com)__ qui a eu l'idée géniale d'associer les [moteurs continus à contrôleur servo](https://shop.mchobby.be/fr/prototypage-robotique-roue/447-zumo-kit-chassis-sans-moteur-3232100004474-pololu.html) de DFRobot avec le [châssis Zumo de Pololu](https://shop.mchobby.be/fr/prototypage-robotique-roue/447-zumo-kit-chassis-sans-moteur-3232100004474-pololu.html) de Pololu.
+
+__Le projet:__
 
 En utilisant un [châssis Zumo de Pololu](https://shop.mchobby.be/fr/prototypage-robotique-roue/447-zumo-kit-chassis-sans-moteur-3232100004474-pololu.html) avec des [moteurs continus à contrôleur servo](https://shop.mchobby.be/fr/prototypage-robotique-roue/447-zumo-kit-chassis-sans-moteur-3232100004474-pololu.html) et une [PYBStick](https://github.com/mchobby/pyboard-driver/tree/master/PYBStick) il est possible de réaliser un chouette petit robot avec très peu de connexions.
 
