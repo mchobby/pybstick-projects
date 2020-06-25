@@ -8,6 +8,7 @@ La __documentation MicroPython de la PYBStick__ est disponible dans le dépôt [
 
 Voici la liste des projets disponibles, voir les détails des différents projects dans leur sous-répertories respectifs.
 
+* __[charlie-clock](../../tree/master/charlie-clock)__ : réaliser une horloge à partie d'une matrice CharliePlexing.
 * __[copy-paste](../../tree/master/copy-paste)__ : réaliser des touches copier/coller pour compléter un clavier.
 * __[keybow](../../tree/master/keybow)__ : une version avancée du projet [copy-paste](../../tree/master/copy-paste) exploitant un KeyBow de Pimoroni.
 * __[oled-stat](../../tree/master/oled-stat)__ : Affichage taille du système de fichier et RAM disponible sur écran OLED.
