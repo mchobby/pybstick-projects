@@ -1,4 +1,4 @@
-# Copier-Coller
+# Créer un mini-clavier avec des touches Copier-Coller
 Ce projet propose de créer un petit clavier d'appoint (périphérique USB) avec des touches copier / coller en simulant ce CTRL-C et CTRL-V.
 
 ![Demonstration du projet](docs/_static/demo.jpg)
