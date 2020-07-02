@@ -10,11 +10,14 @@ Voici la liste des projets disponibles, voir les détails des différents projec
 
 * __[charlie-clock](../../tree/master/charlie-clock)__ : réaliser une horloge à partie d'une matrice CharliePlexing.
 * __[copy-paste](../../tree/master/copy-paste)__ : réaliser des touches copier/coller pour compléter un clavier.
+* __[covid-madenn-timer](../../tree/master/covid-madenn-timer)__ : Minuteur automatique pour le lavage des mains (inspiré de Madenn Nunten)
 * __[keybow](../../tree/master/keybow)__ : une version avancée du projet [copy-paste](../../tree/master/copy-paste) exploitant un KeyBow de Pimoroni.
 * __[oled-stat](../../tree/master/oled-stat)__ : Affichage taille du système de fichier et RAM disponible sur écran OLED.
-* __[covid-madenn-timer](../../tree/master/covid-madenn-timer)__ : Minuteur automatique pour le lavage des mains (inspiré de Madenn Nunten)
 * __[tooth-brushing-timer](../../tree/master/tooth-brushing-timer)__ : Minuteur de brossage de dents (inspiré de Madenn Nunten)
 * __[zumo](../../tree/master/zumo)__ : PYBStick sur chenilles avec un capteur de distance HC-SR04
+
+## Contributions
+* __[Mini-Pong](https://framagit.org/labobine/mini-pong)__ : créer un mini-jeu de pong avec un écran OLED et deux potentiometre en guise de manette.
 
 # Où acheter
 Les [cartes PYBStick](https://shop.mchobby.be/fr/recherche?controller=search&orderby=position&orderway=desc&search_query=PYBStick&submit_search=) sont disponibles chez MCHobby. Celles-cis sont programmables en MicroPython et/ou Arduino IDE.
