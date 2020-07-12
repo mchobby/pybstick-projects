@@ -18,6 +18,7 @@ Voici la liste des projets disponibles, voir les détails des différents projec
 
 ## Contributions
 * __[Mini-Pong](https://framagit.org/labobine/mini-pong)__ : créer un mini-jeu de pong avec un écran OLED et deux potentiometre en guise de manette.
+* __[SinS project](https://github.com/papsdroidfr/SinS)__ : SinS - Sins is not Simon
 
 # Où acheter
 Les [cartes PYBStick](https://shop.mchobby.be/fr/recherche?controller=search&orderby=position&orderway=desc&search_query=PYBStick&submit_search=) sont disponibles chez MCHobby. Celles-cis sont programmables en MicroPython et/ou Arduino IDE.
