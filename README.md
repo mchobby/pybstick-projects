@@ -11,7 +11,7 @@ Voici la liste des projets disponibles, voir les détails des différents projec
 * __[charlie-clock](../../tree/master/charlie-clock)__ : réaliser une horloge à partie d'une matrice CharliePlexing.
 * __[copy-paste](../../tree/master/copy-paste)__ : réaliser des touches copier/coller pour compléter un clavier.
 * __[covid-madenn-timer](../../tree/master/covid-madenn-timer)__ : Minuteur automatique pour le lavage des mains (inspiré de Madenn Nunten)
-* __[sms-relay](../../tree/master/gsm-relay)__ : Commander un relais / capturer la température par SMS.
+* __[sms-relay](../../tree/master/sms-relay)__ : Commander un relais / capturer la température par SMS.
 * __[keybow](../../tree/master/keybow)__ : une version avancée du projet [copy-paste](../../tree/master/copy-paste) exploitant un KeyBow de Pimoroni.
 * __[oled-stat](../../tree/master/oled-stat)__ : Affichage taille du système de fichier et RAM disponible sur écran OLED.
 * __[tooth-brushing-timer](../../tree/master/tooth-brushing-timer)__ : Minuteur de brossage de dents (inspiré de Madenn Nunten)
